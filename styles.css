@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("images/background.jpg");
+}
+
+.container{
+    padding: 20px;
+}
+
+.container div, .display{
+    display: flex;
+}
+
+.firstRow button, .secondRow button, .thirdRow button, .fourthRow button{
+    width: 1px; /* to make buttons look same with flex grow*/
+    flex-grow: 1;
+    height: 60px;
+    border-radius: 6px;
+}
+
+.display{
+    height: 50px;
+    width: 300px;
+}
